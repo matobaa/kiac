@@ -151,3 +151,10 @@ CONFIG_IP6_NF_MATCH_RPFILTER=y
 # kube-proxy's ipvs mode and dual-stack conntrack accounting.
 CONFIG_NF_CONNTRACK=y
 CONFIG_NF_NAT=y
+
+# --- AppArmor ----------------------------------------------------------
+CONFIG_SECURITY=y
+CONFIG_SECURITY_APPARMOR=y
+CONFIG_DEFAULT_SECURITY_APPARMOR=y
+
+#
