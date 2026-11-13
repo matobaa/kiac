@@ -157,4 +157,5 @@ CONFIG_SECURITY=y
 CONFIG_SECURITY_APPARMOR=y
 CONFIG_DEFAULT_SECURITY_APPARMOR=y
 
-#
+# --- falco sys_enter_* -------------------------------------------------
+CONFIG_FTRACE_SYSCALLS=y
